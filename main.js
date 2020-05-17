@@ -162,7 +162,7 @@ function setup()
         player.reverseSpeed = 8;
         player.length = 3;
         player.direction = "right";
-        snake.removeChildren(0,snake.children.length)
+        snake.removeChildren()
         snakePos = [{x:7,y:8},{x:8, y:8},{x:9, y:8}];
         for(let a = 0 ; a < player.length ; a++)
         {
